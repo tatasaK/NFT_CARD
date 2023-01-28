@@ -1,0 +1,143 @@
+body{
+    background: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nft-header{
+    width: 302px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    padding: 24px;
+
+}
+.main-img{
+    width: 302px;
+    height: 302px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.main-text{
+    width: 302px;
+    height: 28px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+.main-text:hover{
+    color: #00FFF8;
+}
+.info-text{
+    width: 302px;
+    height: 52px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+
+}
+.path-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    
+}
+.svg1{
+
+    width: 11px;
+    height: 18px;
+
+}
+p{
+    margin: 0;
+    width: 75px;
+    height: 20px;
+    margin-left: 6.48px;
+}
+.path1{
+    width: 93.48px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    display: flex;
+    flex-direction: row;
+    
+}
+.path2{ 
+    display: flex;
+    flex-direction: row;
+}
+.day-left{
+    width: 73px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-left: 9.03px;
+
+
+}
+hr{
+    width: 302px;
+    height: 1px;
+    background: #2E405A;
+}
+.avatar-info{
+    
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 8px;
+}
+.avatar-img{
+    width: 33px;
+    height: 33px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    margin-right: 16px;
+}
+.avatar-text1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    width: 81px;
+    height: 20px;
+}
+.avatar-text2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 93px;
+    height: 20px;
+    cursor: pointer;
+}
+.avatar-text2:hover{
+    color: #00FFF8;
+}
